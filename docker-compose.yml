@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  binance-auto-abitrange:
+    build: .
+    networks:
+      - binaceAbitrange
+    restart: unless-stopped
+networks:
+  binaceAbitrange:
